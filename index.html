@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Roya</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="rtl">
+    <div class="wrapper">
+      <div class="header">
+        <div class="logo-container py-2 d-flex align-items-center">
+          <img src="assets/logo.png" class="logo" />
+          <label class="logo-name px-2">رؤيا الإخبارية</label>
+        </div>
+        <div class="menu-container">
+          <div class="d-lg-flex d-none menu">
+            <a href="#" class="menu-item active">الرئيسية</a>
+            <a href="#" class="menu-item">محليات</a>
+            <a href="#" class="menu-item">فلسطين</a>
+            <a href="#" class="menu-item">عربي دولي</a>
+            <a href="#" class="menu-item">اقتصاد</a>
+            <a href="#" class="menu-item">رياضة</a>
+            <a href="#" class="menu-item">هنا وهناك</a>
+            <a href="#" class="menu-item">مقالات</a>
+            <a href="#" class="menu-item">كتاب</a>
+            <a href="#" class="menu-item">وفيات</a>
+            <a href="#" class="menu-item">فيديو</a>
+            <a href="#" class="menu-item">الطقس</a>
+            <a href="#" class="menu-item">كاريكاتير</a>
+            <a href="#" class="menu-item">الأحداث السابقة</a>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-2 row">
+        <div class="col-lg-8 px-2">
+          <div class="col-12 px-0 mb-3 position-relative">
+            <img src="./assets/image1.jpg" width="100%" />
+            <div class="text-over-image">
+              <label class="mb-0">تداعيات الإعتراف بالقدس عاصمة للإحتلال</label>
+            </div>
+          </div>
+          <div class="col-12 px-2 row mx-0 mb-3 flex-lg-wrap flex-nowrap overflow-auto-x">
+            <div class="col-lg-4 col-md-4 col-6 mb-2 px-2">
+              <img src="./assets/image2.jpg" width="100%" />
+              <label class="news-text mb-0 mt-2">فلسطين تستدعي ممثلها في واشنطن للتشاور</label>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6 mb-2 px-2">
+              <img src="./assets/image3.jpg" width="100%" />
+              <label class="news-text mb-0 mt-2">ما هي معوقات إمتلاك شقة في الأردن؟</label>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6 mb-2 px-2">
+              <img src="./assets/image2.jpg" width="100%" />
+              <label class="news-text mb-0 mt-2">فلسطين تستدعي ممثلها في واشنطن للتشاور</label>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6 mb-2 px-2">
+              <img src="./assets/image3.jpg" width="100%" />
+              <label class="news-text mb-0 mt-2">فلسطين تستدعي ممثلها في واشنطن للتشاور</label>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6 mb-2 px-2">
+              <img src="./assets/image2.jpg" width="100%" />
+              <label class="news-text mb-0 mt-2">فلسطين تستدعي ممثلها في واشنطن للتشاور</label>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6 mb-2 px-2">
+              <img src="./assets/image3.jpg" width="100%" />
+              <label class="news-text mb-0 mt-2">فلسطين تستدعي ممثلها في واشنطن للتشاور</label>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6 mb-2 px-2">
+              <img src="./assets/image2.jpg" width="100%" />
+              <label class="news-text mb-0 mt-2">فلسطين تستدعي ممثلها في واشنطن للتشاور</label>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6 mb-2 px-2">
+              <img src="./assets/image3.jpg" width="100%" />
+              <label class="news-text mb-0 mt-2">فلسطين تستدعي ممثلها في واشنطن للتشاور</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 px-2 d-lg-block d-none">
+          <div class="col-12 px-0">
+            <ul class="nav nav-pills" id="news-tab" role="tablist">
+              <li class="nav-item mb-2">
+                <a
+                  class="nav-link"
+                  id="news-newest-tab"
+                  data-toggle="pill"
+                  href="#news-newest"
+                  role="tab"
+                  aria-controls="news-newest"
+                  aria-selected="true"
+                  >أحدث الأخبار</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  class="nav-link active"
+                  id="news-common-tab"
+                  data-toggle="pill"
+                  href="#news-common"
+                  role="tab"
+                  aria-controls="news-common"
+                  aria-selected="false"
+                  >الأكثر شيوعا</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="news-tabContent">
+              <div class="tab-pane fade" id="news-newest" role="tabpanel" aria-labelledby="news-newest-tab">
+                <div class="list-item mb-2">
+                  <a href="#" class="list-news-link">الطفل ورد ربابعة أغرب قضية إختفاء تعود</a>
+                  <a href="#" class="list-menu-toggle">محليات</a>
+                </div>
+              </div>
+              <div class="tab-pane fade show active" id="news-common" role="tabpanel" aria-labelledby="news-common-tab">
+                <div class="col-12 px-0">
+                  <div class="list-item mb-2">
+                    <a href="#" class="list-news-link">وفات شقيق الإعلامية علا الفارس... وحركة فتح تعلن</a>
+                    <a href="#" class="list-menu-toggle">هنا وهناك</a>
+                  </div>
+                  <div class="list-item mb-2">
+                    <a href="#" class="list-news-link">الطفل ورد ربابعة أغرب قضية إختفاء تعود</a>
+                    <a href="#" class="list-menu-toggle">محليات</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 px-0">
+            <div class="weather-header mb-2">
+              <label class="mb-0">الطقس</label>
+            </div>
+            <div class="col-12 px-0">
+              <div class="weather-list-item mb-2">
+                <a href="#" class="weather-list-link">
+                  تنبيه من تشكل السيول في البحر الميت والأغوار خلال الساعات القليلة المقبلة (طقس العرب)
+                </a>
+              </div>
+              <div class="weather-list-item mb-2">
+                <a href="#" class="weather-list-link">
+                  تنبيه من تشكل السيول في البحر الميت والأغوار خلال الساعات القليلة المقبلة (طقس العرب)
+                </a>
+              </div>
+              <div class="weather-list-item mb-2">
+                <a href="#" class="weather-list-link">
+                  تنبيه من تشكل السيول في البحر الميت والأغوار خلال الساعات القليلة المقبلة (طقس العرب)
+                </a>
+              </div>
+            </div>
+            <button type="button" class="more-button">
+              المزيد من الطقس
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
